@@ -1,0 +1,6 @@
+[package]
+name = "rainbow_svg_mask"
+version = "0.1.0"
+authors = ["Lee Symes <lee@queerops.engineering>"]
+
+[dependencies]
