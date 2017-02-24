@@ -1,0 +1,54 @@
+_clips:
+  cloud.new:
+    src: "src/cloud.new.svg"
+    width: 5
+
+_default: "#fff"
+
+pride:
+  - "#E40303"
+  - "#FF8C00"
+  - "#FFED00"
+  - "#008026"
+  - "#004DFF"
+  - "#750787"
+
+bisexual:
+  "#D60270": 2
+  "#9B4F96": 1
+  "#0038A8": 2
+
+asexual:
+  - "black"
+  - "#a3a3a3"
+  - "#ffffff"
+  - "#800080"
+
+pansexual:
+  - "#21b1ff"
+  - "#ffd800"
+  - "#ff218c"
+
+polysexual:
+  - "#1c92f6"
+  - "#07d569"
+  - "#f61cb9"
+
+transgender:
+  - "#5BCEFA"
+  - "#F5A9B8"
+  - "white"
+  - "#F5A9B8"
+  - "#5BCEFA"
+
+genderqueer:
+  - "#4a8123"
+  - "white"
+  - "#b57edc"
+
+genderfluid:
+  - "#333ebd"
+  - "black"
+  - "#be18d6"
+  - "white"
+  - "#ff75a2"

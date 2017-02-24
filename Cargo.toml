@@ -3,6 +3,23 @@ name = "rainbow_svg_mask"
 version = "0.1.0"
 authors = ["Lee Symes <lee@queerops.engineering>"]
 
+[[bin]]
+name = "rainbow_svg_mask"
+doc = false
+
 [dependencies]
-svg = "0.5.4"
-yaml-rust = "0.3.5"
+error-chain = "0.8.1"
+yaml-rust = { version = "0.3.5", features = ["preserve_order"] }
+svgparser = "0.2.0"
+
+[dependencies.svgcleaner]
+# latest
+git = "https://github.com/RazrFalcon/svgcleaner.git"
+# from crates
+# version = "=0.8.0"
+
+[dependencies.svgdom]
+# latest
+git = "https://github.com/RazrFalcon/libsvgdom.git"
+# from crates
+# version = "=0.3.0"
